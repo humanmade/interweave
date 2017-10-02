@@ -394,6 +394,8 @@ export default class Parser {
     let content = [];
     let mergedText = '';
 
+    console.log(parentNode);
+
     // eslint-disable-next-line complexity
     Array.from(parentNode.childNodes).forEach((node) => {
       // Create React elements from HTML elements
